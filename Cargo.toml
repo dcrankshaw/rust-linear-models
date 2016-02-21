@@ -3,6 +3,10 @@ name = "linear-models"
 version = "0.1.0"
 authors = ["Dan Crankshaw <dscrankshaw@gmail.com>"]
 
+[lib]
+name = "linear_models"
+path = "src/lib.rs"
+
 [dependencies]
 libc = "0.1.8"
 rand = "0.3"

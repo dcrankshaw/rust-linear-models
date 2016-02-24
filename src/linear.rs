@@ -2,7 +2,7 @@ use std::slice;
 use std::sync::Arc;
 
 use linear_ffi;
-pub use linear_ffi::{Struct_parameter, L2R_LR};
+pub use linear_ffi::{Struct_parameter, L2R_LR, L1R_LR};
 use linalg;
 use common;
 use util;
